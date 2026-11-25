@@ -1,0 +1,101 @@
+@layer tokens {
+  :root {
+    /* Neutral ramp and accent */
+    --neutral-0: oklch(0.99 0.008 100);
+    --neutral-50: oklch(0.96 0.012 100);
+    --neutral-100: oklch(0.91 0.014 100);
+    --neutral-300: oklch(0.78 0.018 155);
+    --neutral-600: oklch(0.48 0.025 160);
+    --neutral-900: oklch(0.24 0.025 160);
+    --accent: oklch(0.48 0.13 160);
+
+    /* Names retained from the starter palette */
+    --paper: var(--neutral-0);
+    --ink: var(--neutral-900);
+    --muted: var(--neutral-600);
+    --line: var(--neutral-300);
+    --green: var(--accent);
+    --lime: var(--neutral-100);
+    --tomato: var(--neutral-600);
+
+    /* Color roles */
+    --color-bg: var(--neutral-0);
+    --color-surface: var(--neutral-50);
+    --color-fg: var(--neutral-900);
+    --color-fg-muted: var(--neutral-600);
+    --color-border: var(--neutral-300);
+    --color-border-strong: var(--neutral-600);
+    --color-accent: var(--accent);
+    --color-on-accent: var(--neutral-0);
+    --color-focus: var(--accent);
+    --color-info: oklch(0.52 0.15 250);
+    --color-success: oklch(0.48 0.13 160);
+    --color-warning: oklch(0.62 0.14 75);
+    --color-danger: oklch(0.52 0.18 25);
+
+    /* Fonts */
+    --serif: Georgia, 'Times New Roman', serif;
+    --sans: 'Avenir Next', Avenir, 'Segoe UI', sans-serif;
+
+    /* Type scale */
+    --text-base: 1rem;
+    --text-ratio: 1.2;
+    --text-xs: 0.694rem;
+    --text-sm: 0.833rem;
+    --text-lg: 1.2rem;
+    --text-xl: 1.44rem;
+    --text-2xl: 1.728rem;
+    --text-3xl: 2.074rem;
+    --text-4xl: 2.488rem;
+    --text-5xl: 2.986rem;
+    --text-6xl: 3.583rem;
+    --text-7xl: 4.3rem;
+
+    /* Spacing */
+    --space-0: 0;
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.5rem;
+    --space-6: 2rem;
+    --space-7: 3rem;
+    --space-8: 4rem;
+
+    /* Shape and depth */
+    --radius-sm: 0.25rem;
+    --radius-md: 0.5rem;
+    --border-width: 1px;
+    --focus-width: 3px;
+    --shadow-sm: 0 0.125rem 0.5rem oklch(0.24 0.025 160 / 0.08);
+
+    /* Motion */
+    --duration-fast: 120ms;
+    --duration-normal: 180ms;
+    --ease-standard: ease;
+
+    /* Type details */
+    --weight-normal: 400;
+    --weight-medium: 500;
+    --weight-bold: 700;
+    --line-height-body: 1.7;
+    --line-height-heading: 1.15;
+    --line-height-tight: 1.4;
+
+    /* Reusable presentation values */
+    --layout-width: 76rem;
+    --measure: 68ch;
+    --color-scheme: light;
+    --scroll-behavior: smooth;
+    --border-style: solid;
+    --decoration-style: dotted;
+    --font-mono: monospace;
+    --font-style-italic: italic;
+    --font-variant-numeric: tabular-nums;
+    --text-wrap-balance: balance;
+    --text-align-center: center;
+    --display-flex: flex;
+    --cursor-help: help;
+    --quotes: "“" "”" "‘" "’";
+  }
+}
