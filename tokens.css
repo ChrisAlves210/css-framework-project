@@ -68,6 +68,7 @@
     --border-width: 1px;
     --focus-width: 3px;
     --shadow-sm: 0 0.125rem 0.5rem oklch(0.24 0.025 160 / 0.08);
+    --shadow-md: 0 0.5rem 1.5rem oklch(0.24 0.025 160 / 0.16);
 
     /* Motion */
     --duration-fast: 120ms;

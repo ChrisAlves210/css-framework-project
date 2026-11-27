@@ -646,6 +646,10 @@
 }
 
 @layer components {
+  fw-card:not(:defined) {
+    visibility: hidden;
+  }
+
   .btn {
     --btn-background: var(--color-accent);
     --btn-foreground: var(--color-on-accent);
@@ -715,8 +719,7 @@
     cursor: not-allowed;
   }
 
-  .card,
-  fw-card {
+  .card {
     --card-border-color: var(--color-border);
     --card-border-width: var(--border-width);
 
@@ -725,18 +728,6 @@
     border: var(--card-border-width) var(--border-style) var(--card-border-color);
     border-radius: var(--radius-md);
     background: var(--color-surface);
-  }
-
-  fw-card {
-    padding: var(--space-4) var(--space-5);
-  }
-
-  fw-card > :first-child {
-    margin-top: var(--space-0);
-  }
-
-  fw-card > :last-child {
-    margin-bottom: var(--space-0);
   }
 
   .card + .card {
